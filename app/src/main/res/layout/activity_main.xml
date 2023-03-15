@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="346dp"
+        android:layout_height="135dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="351dp">
+
+        <EditText
+            android:id="@+id/resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/limpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="limpiar" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="126dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/numeroP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/numeroS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="242dp"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="130dp">
+
+        <Button
+            android:id="@+id/potencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="potencia" />
+
+        <Button
+            android:id="@+id/fibonacci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fibonacci" />
+
+        <Button
+            android:id="@+id/multiplicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mutiplicacion" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
